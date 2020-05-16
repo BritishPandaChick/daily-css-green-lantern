@@ -1,0 +1,54 @@
+/*Inspired by https://codepen.io/AlxCrmr/pen/WjzbyN */
+
+body {
+  background: gray;
+}
+
+.box {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.white-circle {
+  width: 500px;
+  height: 500px;
+  background: white;
+  border-radius: 50%;
+}
+
+.lantern {
+  width: 250px;
+  height: 40px;
+  background: green;
+  position: relative;
+}
+
+.top {
+  top: 90px;
+  left: 120px;
+}
+
+.bot {
+  top: 70px;
+  left: 120px;
+}
+
+.lantern-mid {
+  width: 250px;
+  height: 250px;
+  background: green;
+  border-radius: 50%;
+  position: relative;
+  top: 80px;
+  left: 120px;
+}
+
+.white-circle-sm {
+  width: 150px;
+  height: 150px;
+  background: white;
+  position: relative;
+  border-radius: 50%;
+  left: 50px;
+  top: 50px;
+}
